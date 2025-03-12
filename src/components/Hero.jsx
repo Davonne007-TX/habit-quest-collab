@@ -8,11 +8,11 @@ export default function Hero() {
   Quisque at mollis turpis, nec mollis est. Pellentesque ac ex mi. Lorem ipsum
   dolor sit amet, consectetur adipiscing elit. Mauris blandit malesuada sapien et pellentesque.`;
 
-  const transform = "./images/transform.jpeg";
+  const transform = "./images/transform2.jpeg";
 
   return (
     <section className="flex flex-col md:flex-row justify-center items-center gap-8 mt-20 md:mt-40">
-      <section className="flex flex-col justify-center items-center md:flex-row max-w-6xl gap-4">
+      <section className="flex flex-col justify-center items-center md:flex-row max-w-6xl gap-8">
         <section className="max-w-xs md:max-w-lg flex flex-col gap-4">
           <h2 className="text-2xl md:text-6xl font-bold md:leading-18">
             {title}
