@@ -3,7 +3,10 @@ import Image from "./Image";
 
 export default function Hero() {
   const title = "Turn Your Habits Into an Epic Hero's Journey";
-  const quest = `Mauris consequat erat nisi, id vestibulum erat lobortis ut. Quisque at mollis turpis, nec mollis est. Pellentesque ac ex mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit malesuada sapien et pellentesque.`;
+
+  const quest = `Mauris consequat erat nisi, id vestibulum erat lobortis ut.
+  Quisque at mollis turpis, nec mollis est. Pellentesque ac ex mi. Lorem ipsum
+  dolor sit amet, consectetur adipiscing elit. Mauris blandit malesuada sapien et pellentesque.`;
 
   const transform = "./images/transform.jpeg";
 
