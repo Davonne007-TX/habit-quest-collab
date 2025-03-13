@@ -19,7 +19,7 @@ export default function Header() {
       <h1 className="text-xl md:text-3xl font-bold ml-4">HabitQuest</h1>
 
       <nav className="flex-1">
-        <ul className="hidden md:flex justify-center items-center gap-8">
+        <ul className="hidden lg:flex justify-center items-center gap-8">
           {ourLinks.map((link) => (
             <li key={link.id}>{link.habitQuestLinks}</li>
           ))}
