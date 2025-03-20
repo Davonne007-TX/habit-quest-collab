@@ -8,8 +8,10 @@ export default function PersonalQuest() {
     "Select a character class that matches your personality and goals";
   return (
     <>
-      <CustomHeading heading={character} text={select} />
-      <ChooseYourCharacter />
+      <section className="p-4">
+        <CustomHeading heading={character} text={select} />
+        <ChooseYourCharacter />
+      </section>
     </>
   );
 }
