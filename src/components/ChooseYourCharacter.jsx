@@ -31,7 +31,7 @@ export default function ChooseYourCharacter() {
     },
   ];
   return (
-    <section className="flex flex-col md:flex-col lg:flex-row justify-center items-center gap-6">
+    <section className="flex flex-col md:flex-col lg:flex-row justify-center items-center gap-2 md:gap-8">
       {pickYourCharacter.map((character) => (
         <Card
           key={character.id}
