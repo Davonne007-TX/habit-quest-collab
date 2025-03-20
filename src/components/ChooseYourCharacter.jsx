@@ -6,7 +6,7 @@ export default function ChooseYourCharacter() {
       image: "🧙‍♂️",
       altText: "Wizard, emoji by emojipedia.org",
       name: "Wizard",
-      description: `Highly intelliget and full of magic. Perfect
+      description: `Highly intelliget Wizard and full of magic! Perfect
       for those focused on learning and mental growith.`,
       buttonText: "Begin Journey",
       id: 1,
@@ -15,8 +15,8 @@ export default function ChooseYourCharacter() {
       image: "🥷",
       altText: "Ninja, emoji by emojipedia.org ",
       name: "Ninja",
-      description: `Highly intelliget and full of magic. Perfect
-      for those focused on learning and mental growith.`,
+      description: `Highly skilled Ninja waiting to make its move. Perfect
+      for those building fundementals, building till their moment..`,
       buttonText: "Begin Misson ",
       id: 2,
     },
@@ -24,8 +24,8 @@ export default function ChooseYourCharacter() {
       image: "🦸🏻",
       altText: "Superhero, emoji by emojipedia.orgs ",
       name: "Superhero",
-      description: `Highly intelliget and full of magic. Perfect
-      for those focused on learning and mental growith.`,
+      description: `Highly invincible, wanting to help others. Perfect
+      for those who want to share their knowldge with others and grow together.`,
       buttonText: "Begin Quest",
       id: 3,
     },
