@@ -7,7 +7,7 @@ export default function QuestUnfolds() {
       alt: "Icon of a sensor, by icons8",
       serviceHeading: "Habit Tracking",
       serviceDescription: `Create, track and complete daily habits
-      to gain expierience and level up your character..`,
+      to gain experience and level up your character..`,
       id: 1,
     },
     {
@@ -22,8 +22,8 @@ export default function QuestUnfolds() {
       serviceImage: "./images/stars.png",
       alt: "Icon of three stars, by icons8",
       serviceHeading: "AI Generative Story",
-      serviceDescription: `Watch how AI transforms your habit and journal enteries into an epic
-      hero narritave customize just for you.`,
+      serviceDescription: `Watch how AI transforms your habit and journal entries into an epic
+      hero narrative customize just for you.`,
       id: 3,
     },
   ];
