@@ -5,6 +5,7 @@ export default function Card({
   cardIcon,
   cardHeading,
   cardDescription,
+  descriptionStyles,
   btnTxt,
   btnStyles,
   backgroundColor,
@@ -15,10 +16,10 @@ export default function Card({
         className={`border-1 p-4 max-w-sm md:max-w-md lg:max-w-sm h-80 rounded-xl ${backgroundColor}`}
       >
         <div className="flex flex-col justify-center items-center text-center gap-4">
-          <img src={cardImage} className="max-w-xs" />
-          <span className="text-6xl">{cardIcon}</span>
+          <img src={cardImage} className="mt-4" />
+          <span className="text-6xl -mt-4">{cardIcon}</span>
           <h1 className="font-bold text-2xl">{cardHeading}</h1>
-          <p className="">{cardDescription}</p>
+          <p className={descriptionStyles}>{cardDescription}</p>
           <Button btnTxt={btnTxt} btnStyles={btnStyles} />
         </div>
       </div>

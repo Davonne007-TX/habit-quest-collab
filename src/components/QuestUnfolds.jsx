@@ -4,24 +4,23 @@ export default function QuestUnfolds() {
   const habitTracking = [
     {
       serviceImage: "./images/iconSensor.png",
-      service: "Habit Tracking",
+      serviceHeading: "Habit Tracking",
       serviceDescription: `Highly skilled Ninja waiting to make its move. Perfect
-      for those building fundamentals, building till their moment..`,
-
+      for those building fundamentals, building till their moment.`,
       id: 1,
     },
     {
       serviceImage: "./images/journal.png",
-      service: "Journal your Journey",
+      serviceHeading: "Journal your Journey",
       serviceDescription: `Highly skilled Ninja waiting to make its move. Perfect
-      for those building fundamentals, building till their moment..`,
+      for those building fundamentals, building till their moment.`,
       id: 2,
     },
     {
       serviceImage: "./images/stars.png",
-      service: "AI Generative Story",
+      serviceHeading: "AI Generative Story",
       serviceDescription: `Highly skilled Ninja waiting to make its move. Perfect
-      for those building fundamentals, building till their moment..`,
+      for those building fundamentals, building till their moment.`,
       id: 3,
     },
   ];
@@ -35,6 +34,7 @@ export default function QuestUnfolds() {
           cardImage={tracking.serviceImage}
           cardHeading={tracking.serviceHeading}
           cardDescription={tracking.serviceDescription}
+          descriptionStyles={""}
         />
       ))}
     </section>
