@@ -1,19 +1,24 @@
 import Button from "./Button";
 
 export default function Card({
-  characterImage,
-  character,
-  characterDescription,
+  cardImage,
+  cardIcon,
+  cardHeading,
+  cardDescription,
   btnTxt,
   btnStyles,
+  backgroundColor,
 }) {
   return (
     <section className="max-w-4xl shadow-md text-white md:max-w-6xl mt-10">
-      <div className="border-1 p-4 max-w-sm md:max-w-md lg:max-w-sm h-80 rounded-xl bg-purple-500">
-        <div className="flex flex-col justify-center items-center text-center gap-4 leading-6 mt-4">
-          <span className="text-6xl">{characterImage}</span>
-          <h1 className="font-bold text-2xl">{character}</h1>
-          <p className="">{characterDescription}</p>
+      <div
+        className={`border-1 p-4 max-w-sm md:max-w-md lg:max-w-sm h-80 rounded-xl ${backgroundColor}`}
+      >
+        <div className="flex flex-col justify-center items-center text-center gap-4">
+          <img src={cardImage} className="max-w-xs" />
+          <span className="text-6xl">{cardIcon}</span>
+          <h1 className="font-bold text-2xl">{cardHeading}</h1>
+          <p className="">{cardDescription}</p>
           <Button btnTxt={btnTxt} btnStyles={btnStyles} />
         </div>
       </div>

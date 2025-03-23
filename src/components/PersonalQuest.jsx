@@ -1,6 +1,7 @@
 import React from "react";
 import CustomHeading from "./CustomHeading";
 import ChooseYourCharacter from "./ChooseYourCharacter";
+import QuestUnfolds from "./QuestUnfolds";
 
 export default function PersonalQuest() {
   const character = "Choose Your Character";
@@ -8,7 +9,7 @@ export default function PersonalQuest() {
     "Select a character class that matches your personality and goals";
 
   const quest = "Embark on Your Personal Quest";
-  const embark = `HabitQuest uses AI to track your habit tracking to create a 
+  const usingAI = `HabitQuest uses AI to track your habit tracking to create a 
     storytelling creative story peronalized just for you.`;
 
   return (
@@ -17,7 +18,8 @@ export default function PersonalQuest() {
         <CustomHeading heading={character} text={select} />
         <ChooseYourCharacter />
 
-        <CustomHeading heading={quest} text={embark} />
+        <CustomHeading heading={quest} text={usingAI} />
+        <QuestUnfolds />
       </section>
     </>
   );
