@@ -2,6 +2,7 @@ import React from "react";
 import CustomHeading from "./CustomHeading";
 import ChooseYourCharacter from "./ChooseYourCharacter";
 import QuestUnfolds from "./QuestUnfolds";
+import LegendaryTale from "./LegendaryTale";
 
 export default function PersonalQuest() {
   const character = "Choose Your Character";
@@ -26,6 +27,7 @@ export default function PersonalQuest() {
         <QuestUnfolds />
 
         <CustomHeading heading={share} text={hero} />
+        <LegendaryTale />
       </section>
     </>
   );
