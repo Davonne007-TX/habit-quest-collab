@@ -34,7 +34,6 @@ export default function QuestUnfolds() {
           cardImage={tracking.serviceImage}
           cardHeading={tracking.serviceHeading}
           cardDescription={tracking.serviceDescription}
-          descriptionStyles={""}
         />
       ))}
     </section>

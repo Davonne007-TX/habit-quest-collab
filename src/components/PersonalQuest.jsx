@@ -12,6 +12,10 @@ export default function PersonalQuest() {
   const usingAI = `HabitQuest uses AI to track your habit tracking to create a 
     storytelling creative story peronalized just for you.`;
 
+  const share = "Share Your Epic Tale";
+  const hero = `Your hero journey is meant to be shared. Connect with friends and
+  inspire others, as your grow together.`;
+
   return (
     <>
       <section className="p-4">
@@ -20,6 +24,8 @@ export default function PersonalQuest() {
 
         <CustomHeading heading={quest} text={usingAI} />
         <QuestUnfolds />
+
+        <CustomHeading heading={share} text={hero} />
       </section>
     </>
   );
