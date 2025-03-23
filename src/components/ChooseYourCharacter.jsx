@@ -32,7 +32,7 @@ export default function ChooseYourCharacter() {
   ];
   return (
     <section className="flex flex-col md:flex-col lg:flex-row justify-center items-center gap-2 md:gap-8">
-      {pickYourCharacter.map((character) => (
+      {pickYourCharacter.map``((character) => (
         <Card
           backgroundColor={"bg-purple-600"}
           key={character.id}
