@@ -3,6 +3,7 @@ import CustomHeading from "./CustomHeading";
 import ChooseYourCharacter from "./ChooseYourCharacter";
 import QuestUnfolds from "./QuestUnfolds";
 import LegendaryTale from "./LegendaryTale";
+import HabitQuestStory from "./HabitQuestStory";
 
 export default function PersonalQuest() {
   const character = "Choose Your Character";
@@ -27,7 +28,10 @@ export default function PersonalQuest() {
         <QuestUnfolds />
 
         <CustomHeading heading={share} text={hero} />
-        <LegendaryTale />
+        <div className="flex flex-col md:flex-row gap-8">
+          <LegendaryTale />
+          <HabitQuestStory />
+        </div>
       </section>
     </>
   );
