@@ -1,5 +1,6 @@
 import Button from "./Button";
 import Image from "./Image";
+import UserIcons from "./UserIcons";
 
 export default function HabitQuestStory() {
   const user = "Shared by @Habitin";
@@ -34,6 +35,8 @@ export default function HabitQuestStory() {
             />
           </div>
         </div>
+
+        <UserIcons />
       </div>
     </section>
   );
