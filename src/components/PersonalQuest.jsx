@@ -18,6 +18,9 @@ export default function PersonalQuest() {
   const hero = `Your hero journey is meant to be shared. Connect with friends and
   inspire others, as your grow together.`;
 
+  const questUnfolds = "How Your Quest Unfolds";
+  const process = `A simple process that turns your daily habits into an epic adventure.`;
+
   return (
     <>
       <section className="p-4">
@@ -32,6 +35,8 @@ export default function PersonalQuest() {
           <LegendaryTale />
           <HabitQuestStory />
         </div>
+
+        <CustomHeading heading={questUnfolds} text={process} />
       </section>
     </>
   );
