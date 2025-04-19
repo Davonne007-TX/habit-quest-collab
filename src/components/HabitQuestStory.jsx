@@ -20,7 +20,7 @@ export default function HabitQuestStory() {
           <p>{user}</p>
         </div>
 
-        <div className="bg-white p-8 flex gap-2 mt-2 flex-col rounded-xl ">
+        <div className="bg-white max-w-xs md:max-w-xl lg::max-w-2xl p-8 flex gap-2 mt-2 flex-col rounded-xl ">
           <h2 className="font-bold text-2xl">The Trails of Persistence</h2>
           <p>{consecutive}</p>
 

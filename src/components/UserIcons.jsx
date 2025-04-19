@@ -24,21 +24,23 @@ export default function UserIcons() {
   ];
 
   return (
-    <section className="flex flex-col justify-center">
-      <ul className="flex justify-center items-center">
-        {users.map((user, index) => (
-          <li
-            style={{ backgroundColor: user.backgroundColor }}
-            className={`w-12 h-12 flex items-center justify-center rounded-full text-black font-semibold border border-white ${
-              index !== 0 ? "-ml-4" : ""
-            }`}
-            key={user.id}
-          >
-            <p>{user.userName}</p>
-          </li>
-        ))}
-        <p className="ml-4">6 people have liked this story</p>
-      </ul>
+    <section className="flex flex-col  justify-center">
+      <div className="flex flex-col md:flex-row items-center justify-center">
+        <ul className="flex justify-center items-center">
+          {users.map((user, index) => (
+            <li
+              style={{ backgroundColor: user.backgroundColor }}
+              className={`w-12 h-12 flex flex-col items-center justify-center rounded-full text-black font-semibold border border-white ${
+                index !== 0 ? "-ml-4" : ""
+              }`}
+              key={user.id}
+            >
+              <p>{user.userName}</p>
+            </li>
+          ))}
+        </ul>
+        <p className="ml-4 p-2">6 people have liked this story</p>
+      </div>
     </section>
   );
 }

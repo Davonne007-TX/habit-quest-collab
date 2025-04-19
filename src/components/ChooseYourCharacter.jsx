@@ -25,7 +25,7 @@ export default function ChooseYourCharacter() {
       altText: "Superhero, emoji by emojipedia.orgs ",
       name: "Superhero",
       description: `Highly invincible, wanting to help others. Perfect
-      for those who want to share their knowledge with others and growth together.`,
+      for those who want to help others and share their knowledge.`,
       buttonText: "Begin Quest",
       id: 3,
     },
