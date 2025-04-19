@@ -28,7 +28,7 @@ export default function PersonalQuest() {
         <QuestUnfolds />
 
         <CustomHeading heading={share} text={hero} />
-        <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex flex-col justify-center items-center lg:flex-row gap-8 py-10">
           <LegendaryTale />
           <HabitQuestStory />
         </div>

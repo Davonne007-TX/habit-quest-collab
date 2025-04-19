@@ -3,7 +3,7 @@ import Image from "./Image";
 export default function Footer() {
   const logo = "./images/hq.png";
   return (
-    <footer className="bg-gray-200 p-6 flex flex-col md:flex-row justify-between items-center text-center gap-4">
+    <footer className="bg-gray-200 p-4 flex flex-col md:flex-row justify-between items-center text-center gap-4">
       <Image
         image={logo}
         imageStyles={"w-14 rounded-full md:ml-20"}
