@@ -10,13 +10,13 @@ export default function Hero() {
   const transform = "./images/transform2.jpeg";
 
   return (
-    <section className="flex flex-col md:flex-row justify-center items-center gap-8 mt-20 md:mt-40">
+    <section className="flex flex-col md:flex-row justify-center items-center gap-8 mt-20 md:mt-28">
       <section className="flex flex-col justify-center items-center lg:flex-row max-w-7xl gap-10">
         <section className="max-w-xs md:max-w-lg flex flex-col gap-4">
           <h2 className="text-2xl md:text-6xl font-bold md:leading-18">
             {title}
           </h2>
-          <p>{quest}</p>
+          <p className="text-lg">{quest}</p>
 
           <section className="flex gap-8 mt-4">
             <Button
