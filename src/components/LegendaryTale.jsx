@@ -27,7 +27,7 @@ export default function LegendaryTale() {
   ];
 
   return (
-    <section className="mt-10">
+    <section className="">
       {shareYourLegendaryTale.map((tale) => (
         <WhatWeOffer
           key={tale.id}

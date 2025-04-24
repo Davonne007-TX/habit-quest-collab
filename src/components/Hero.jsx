@@ -4,10 +4,9 @@ import Image from "./Image";
 export default function Hero() {
   const title = "Turn Your Habits Into an Epic Hero's Journey";
 
-  const quest = `Mauris consequat erat nisi, id vestibulum erat lobortis ut.
-  Quisque at mollis turpis, nec mollis est. Pellentesque ac ex mi. Lorem ipsum
-  dolor sit amet, consectetur adipiscing elit. Mauris blandit malesuada sapien et pellentesque.`;
-
+  const quest = `HabitQuest transforms your daily habits into an adventure. Complete task,
+  journal your experiences, and watch as AI crafts your personal hero story. Share your story 
+  with the world and connect with other developers.`;
   const transform = "./images/transform2.jpeg";
 
   return (

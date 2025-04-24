@@ -4,6 +4,7 @@ import ChooseYourCharacter from "./ChooseYourCharacter";
 import QuestUnfolds from "./QuestUnfolds";
 import LegendaryTale from "./LegendaryTale";
 import HabitQuestStory from "./HabitQuestStory";
+import Process from "./Process";
 
 export default function PersonalQuest() {
   const character = "Choose Your Character";
@@ -37,6 +38,7 @@ export default function PersonalQuest() {
         </div>
 
         <CustomHeading heading={questUnfolds} text={process} />
+        <Process />
       </section>
     </>
   );
