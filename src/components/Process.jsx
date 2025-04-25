@@ -27,7 +27,7 @@ export default function Process() {
       processNumber: "4",
       process: "Reveal Your Story",
       processDescription:
-        "AI generates your hero's journey based on your progress. Share story on Social Media.",
+        "AI generates your hero's journey based on your progress. Share your story on Social Media.",
       id: 4,
     },
   ];
