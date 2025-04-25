@@ -13,7 +13,7 @@ export default function PersonalQuest() {
 
   const quest = "Embark on Your Personal Quest";
   const usingAI = `HabitQuest uses AI to track your habit tracking to create a 
-    storytelling creative personalized just for you.`;
+    story creative personalized just for you.`;
 
   const share = "Share Your Epic Tale";
   const hero = `Your hero journey is meant to be shared. Connect with friends and

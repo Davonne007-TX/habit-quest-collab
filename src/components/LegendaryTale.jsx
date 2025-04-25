@@ -6,7 +6,7 @@ export default function LegendaryTale() {
       legendaryImage: "./images/share.png",
       backgroundColor: "#90EE90",
       legendaryTitle: "Share Your Story",
-      legendaryDescription: `Publish your AI generated hero's journey to social media and share your story with your network.`,
+      legendaryDescription: `Publish your AI generated hero's story to social media and share your story with your network.`,
       id: 1,
     },
     {
