@@ -6,7 +6,7 @@ export default function HabitQuestStory() {
   const user = "Shared by @Habitin";
 
   return (
-    <section className="max-w-xl md:max-w-2xl items-center bg-gray-200 rounded-xl p-8 mt-8">
+    <section className="max-w-xl md:max-w-4xl h-full items-center bg-gray-200 rounded-xl p-8 mt-8">
       <div className="flex flex-col gap-4">
         <Image
           image="/images/hq.png"

@@ -14,8 +14,12 @@ export default function Footer() {
       <p className="text-md w-full">© 2025 HabitQuest. All rights Reserved</p>
 
       <section className="ml-auto hidden md:flex gap-4 text-md mr-20">
-        <a href="">Privacy</a>
-        <a href="">Terms</a>
+        <a href="" id="footerLinks">
+          Privacy
+        </a>
+        <a href="" id="footerLinks">
+          Terms
+        </a>
       </section>
     </footer>
   );

@@ -27,7 +27,7 @@ export default function LegendaryTale() {
   ];
 
   return (
-    <section>
+    <section className="flex  flex-col justify-center items-center">
       {shareYourLegendaryTale.map((tale) => (
         <WhatWeOffer
           key={tale.id}

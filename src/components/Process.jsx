@@ -20,7 +20,7 @@ export default function Process() {
       processNumber: "3",
       process: "Journal Reflections",
       processDescription:
-        "Record your thoughts your experiences in your quest journal.",
+        "Record your thoughts, your experiences in your quest journal.",
       id: 3,
     },
     {
@@ -33,22 +33,22 @@ export default function Process() {
   ];
 
   return (
-    <section className="flex flex-col md:flex-col lg:flex-row justify-center items-center gap-20 py-14">
+    <section className="flex flex-col md:flex-col lg:flex-row justify-center items-center gap-20 py-10">
       <ul className="flex flex-col justify-center items-center lg:flex-row gap-10 w-full relative">
         {howQuestUnfolds.map((unfold) => (
-          <>
-            <div className="flex flex-col justify-center items-center">
-              <Card
-                key={unfold.id}
-                backgroundColor="bg-gradient-to-r from-purple-600 via-indigo-500 to-teal-400"
-                personalizeCard="flex flex-col mt-28"
-                processNumber={unfold.processNumber}
-                cardHeading={unfold.process}
-                cardDescription={unfold.processDescription}
-                descriptionStyles="text-xl p-2"
-              />
-            </div>
-          </>
+          <div
+            key={unfold.id}
+            className="flex flex-col justify-center items-center"
+          >
+            <Card
+              backgroundColor="bg-gradient-to-r from-purple-600 via-indigo-500 to-teal-400"
+              personalizeCard="flex flex-col mt-28"
+              processNumber={unfold.processNumber}
+              cardHeading={unfold.process}
+              cardDescription={unfold.processDescription}
+              descriptionStyles="text-xl p-2"
+            />
+          </div>
         ))}
       </ul>
     </section>
