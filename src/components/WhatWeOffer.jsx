@@ -16,8 +16,8 @@ export default function WhatWeOffer({
           <Image image={legendaryImage} imageStyles="w-full" />
         </div>
 
-        <h2 className="font-bold">{legendaryHeading}</h2>
-        <p className="text-gray-400">{legendaryText}</p>
+        <h2 className="font-bold text-xl">{legendaryHeading}</h2>
+        <p className="text-gray-400 text-lg">{legendaryText}</p>
       </div>
     </section>
   );

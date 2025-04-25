@@ -16,7 +16,7 @@ export default function ChooseYourCharacter() {
       altText: "Ninja, emoji by emojipedia.org ",
       name: "Ninja",
       description: `Highly skilled Ninja waiting to make its move. Perfect
-      for those building fundamentals, building till their moment..`,
+      for those building fundamentals.`,
       buttonText: "Begin Mission ",
       id: 2,
     },
@@ -24,20 +24,22 @@ export default function ChooseYourCharacter() {
       icon: "🦸🏻",
       altText: "Superhero, emoji by emojipedia.orgs ",
       name: "Superhero",
-      description: `Highly invincible, wanting to help others. Perfect
-      for those who want to help others and share their knowledge.`,
+      description: `Highly invincible, wanting to help others. Perfect for those who want 
+      to share their knowledge.`,
       buttonText: "Begin Quest",
       id: 3,
     },
   ];
   return (
-    <section className="flex flex-col md:flex-col lg:flex-row justify-center items-center gap-2 md:gap-8">
+    <section className="flex flex-col md:flex-col lg:flex-row justify-center items-center gap-10 md:gap-20">
       {pickYourCharacter.map((character) => (
         <Card
           backgroundColor={"bg-purple-600"}
           key={character.id}
           cardIcon={character.icon}
           cardHeading={character.name}
+          personalizeCard="mt-4 flex flex-col gap-2"
+          descriptionStyles="text-xl"
           cardDescription={character.description}
           btnTxt={character.buttonText}
           btnStyles={"bg-white rounded-xl text-purple-500 p-2 font-bold"}

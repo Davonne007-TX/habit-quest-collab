@@ -7,7 +7,7 @@ export default function HabitQuestStory() {
 
   return (
     <section className="max-w-xl md:max-w-2xl items-center bg-gray-200 rounded-xl p-8 mt-8">
-      <div className="flex flex-col gap-4 ml">
+      <div className="flex flex-col gap-4">
         <Image
           image="/images/hq.png"
           imageStyles="w-14 rounded-full"

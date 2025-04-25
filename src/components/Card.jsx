@@ -5,23 +5,29 @@ export default function Card({
   cardImage,
   alt,
   cardIcon,
+  imageStyles,
   cardHeading,
+
   cardDescription,
   descriptionStyles,
+  personalizeCard,
   btnTxt,
   btnStyles,
   backgroundColor,
 }) {
   return (
-    <section className="max-w-4xl shadow-md text-white md:max-w-6xl mt-10">
+    <section className="max-w-7xl shadow-md text-white md:max-w-sm mt-10 flex">
       <div
-        className={`border-1 p-4 max-w-sm md:max-w-md lg:max-w-sm h-80 rounded-xl ${backgroundColor}`}
+        className={`border-1 p-4 max-w-sm md:max-w-md h-80 rounded-xl ${backgroundColor}`}
       >
         <div className="flex flex-col justify-center items-center text-center gap-4">
-          <Image image={cardImage} imageStyles="mt-8" alt={alt} />
-          <span className="text-6xl -mt-4 md:-mt-6">{cardIcon}</span>
-          <h1 className="font-bold text-2xl">{cardHeading}</h1>
-          <p className={descriptionStyles}>{cardDescription}</p>
+          <div className={personalizeCard}>
+            <span className="text-6xl">{cardIcon}</span>
+            <Image image={cardImage} imageStyles="mx-auto" alt={alt} />
+
+            <h1 className="font-bold text-3xl">{cardHeading}</h1>
+            <p className={descriptionStyles}>{cardDescription}</p>
+          </div>
           <Button btnTxt={btnTxt} btnStyles={btnStyles} />
         </div>
       </div>
