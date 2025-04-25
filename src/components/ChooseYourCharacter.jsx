@@ -42,7 +42,9 @@ export default function ChooseYourCharacter() {
           descriptionStyles="text-xl"
           cardDescription={character.description}
           btnTxt={character.buttonText}
-          btnStyles={"bg-white rounded-xl text-purple-500 p-2 font-bold"}
+          btnStyles={
+            "bg-white rounded-xl text-purple-500 font-bold hover:scale-105"
+          }
         />
       ))}
     </section>

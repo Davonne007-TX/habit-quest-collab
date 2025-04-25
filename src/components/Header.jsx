@@ -21,16 +21,23 @@ export default function Header() {
       <nav className="flex-1">
         <ul className="hidden lg:flex justify-center items-center gap-8">
           {ourLinks.map((link) => (
-            <li key={link.id}>{link.habitQuestLinks}</li>
+            <li
+              key={link.id}
+              className="hover:bg-black rounded-md hover:text-white cursor-pointer p-2 transition-all duration-300"
+            >
+              {link.habitQuestLinks}
+            </li>
           ))}
         </ul>
       </nav>
 
       <section className="ml-auto flex flex-col md:flex-row gap-4 md:gap-10 md:mr-20">
-        <Button btnTxt={"Login"} btnStyles={""} />
+        <Button btnTxt={"Login"} btnStyles="cursor-pointer hover:underline" />
         <Button
           btnTxt={"Sign Up"}
-          btnStyles={"bg-black text-white p-2 rounded-md w-20 mds:w-24"}
+          btnStyles={
+            "bg-black text-white rounded-md w-20 mds:w-24 hover:text-gray-200"
+          }
         />
       </section>
     </header>

@@ -1,3 +1,5 @@
 export default function Button({ btnStyles, btnTxt }) {
-  return <button className={btnStyles}>{btnTxt}</button>;
+  return (
+    <button className={`cursor-pointer p-2 ${btnStyles}`}>{btnTxt}</button>
+  );
 }

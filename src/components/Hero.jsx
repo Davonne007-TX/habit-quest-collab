@@ -13,19 +13,23 @@ export default function Hero() {
     <section className="flex flex-col md:flex-row justify-center items-center gap-8 mt-20 md:mt-28">
       <section className="flex flex-col justify-center items-center lg:flex-row max-w-7xl gap-10">
         <section className="max-w-xs md:max-w-lg flex flex-col gap-4">
-          <h2 className="text-2xl md:text-6xl font-bold md:leading-18">
+          <h2 className="text-2xl md:text-5xl font-bold md:leading-18">
             {title}
           </h2>
-          <p className="text-lg">{quest}</p>
+          <p className="text-lg md:text-2xl">{quest}</p>
 
           <section className="flex gap-8 mt-4">
             <Button
               btnTxt={"Get Started on your Quest ↗"}
-              btnStyles={"bg-black text-white p-2 rounded-md"}
+              btnStyles={
+                "bg-black text-white hover:scale-105 rounded-md text-md md:text-lg"
+              }
             />
             <Button
               btnTxt={"Learn More"}
-              btnStyles={"p-2 border-1 rounded-md border-black"}
+              btnStyles={
+                "border-1 rounded-md border-black hover:bg-purple-400 text-md md:text-lg"
+              }
             />
           </section>
         </section>
