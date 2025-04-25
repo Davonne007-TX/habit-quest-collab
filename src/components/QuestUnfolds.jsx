@@ -15,7 +15,7 @@ export default function QuestUnfolds() {
       alt: "Icon of a journal, by icons8",
       serviceHeading: "Journal your Journey",
       serviceDescription: `Record your thoughts, challenges, and victories in your personal
-      quest journey. Lets document your journey into tech.`,
+      quest journal. Lets document your journey into tech.`,
       id: 2,
     },
     {
@@ -23,7 +23,7 @@ export default function QuestUnfolds() {
       alt: "Icon of three stars, by icons8",
       serviceHeading: "AI Generative Story",
       serviceDescription: `Watch how AI transforms your habit and journal entries into an epic
-      hero narrative customize just for you.`,
+      hero narrative customized just for you.`,
       id: 3,
     },
   ];
