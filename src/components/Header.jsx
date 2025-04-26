@@ -27,7 +27,13 @@ export default function Header() {
               key={link.id}
               className="hover:bg-black rounded-md hover:text-white cursor-pointer p-2 transition-all duration-300"
             >
-              {link.habitQuestLinks}
+              <a
+                href="#"
+                className="outline-none p-2 focus:ring-2 focus:ring-purple-500 rounded-md"
+              >
+                {" "}
+                {link.habitQuestLinks}
+              </a>
             </li>
           ))}
         </ul>

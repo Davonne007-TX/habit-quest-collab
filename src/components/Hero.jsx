@@ -18,17 +18,17 @@ export default function Hero() {
           </h2>
           <p className="text-lg md:text-2xl">{quest}</p>
 
-          <section className="flex gap-8 mt-4">
+          <section className="flex flex-col md:flex-row gap-4 w-full mt-6">
             <Button
-              btnTxt={"Get Started on your Quest ↗"}
+              btnTxt={"Get Started"}
               btnStyles={
-                "bg-black text-white hover:scale-105 rounded-md text-md md:text-lg"
+                "bg-black text-white w-full md:w-60 py-3 rounded-md text-md md:text-lg hover:scale-105 transition"
               }
             />
             <Button
               btnTxt={"Learn More"}
               btnStyles={
-                "border-1 rounded-md border-black hover:bg-purple-400 text-md md:text-lg"
+                "bg-white text-black border border-black w-full md:w-60 py-3 rounded-md text-md mw-60 d:text-lg hover:bg-purple-300 hover:scale-105 transition"
               }
             />
           </section>
