@@ -4,9 +4,9 @@ import Image from "./Image";
 export default function Hero() {
   const title = "Turn Your Habits Into an Epic Hero's Journey";
 
-  const quest = `HabitQuest transforms your daily habits into an adventure. Complete task,
-  journal your experiences, and watch as AI crafts your personal hero story. Share your story 
-  with the world and connect with other developers.`;
+  const quest = `HabitQuest transforms your daily habits into an adventure. Complete tasks,
+  journal your experiences, and watch as AI crafts your personal heros story. Share your story 
+  with the world and connect with fellow developers on the same Quest.`;
   const transform = "./images/transform2.jpeg";
 
   return (
@@ -16,9 +16,9 @@ export default function Hero() {
           <h2 className="text-2xl md:text-3xl lg:text-6xl font-bold md:leading-18">
             {title}
           </h2>
-          <p className="text-lg md:text-2xl">{quest}</p>
+          <p className="text-lg md:text-2xl tracking-wide">{quest}</p>
 
-          <section className="flex flex-col md:flex-row gap-4 w-full mt-6">
+          <section className="flex flex-col md:flex-row gap-4 w-full mt-4">
             <Button
               btnTxt={"Get Started"}
               btnStyles={
