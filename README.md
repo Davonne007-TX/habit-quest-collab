@@ -1,10 +1,7 @@
 # Habit Quest Clone UI Project
 
-- Project designed by Web Developer/Designer Melvin Torres and developed by me Davonne Vigil.
+- When two devs come together and create something to talk about. Project concept and design by Web Developer/Designer Melvin Torres and developed by me Davonne Vigil.
 
-This was a fun project turning his Figma Web Design into Reality.
+This was a fun project turning his Figma Web Design into Reality. Testing my skills when it comes to all things React.js and Tailwind CSS.
 
-#Built in
-
-- React.js
-- Tailwind CSS
+Deployed Site: https://habit-quest-collab.vercel.app/
